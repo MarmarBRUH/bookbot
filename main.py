@@ -5,7 +5,7 @@ def main():
         w_count = count_words(file_contents)
         c_count = count_characters(file_contents)
         report(w_count, c_count)
-    
+
 def count_words(file_contents):
     count = 0
     words = file_contents.split()
